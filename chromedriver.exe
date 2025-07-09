@@ -1,0 +1,6 @@
+Purpose: Optional folder to place chromedriver.exe if you don’t want to install it system-wide.
+
+📝 Note: You must point to it explicitly in your code like this:
+
+
+self.driver = webdriver.Chrome(executable_path="./drivers/chromedriver")
